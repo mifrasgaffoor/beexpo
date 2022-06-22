@@ -1,0 +1,46 @@
+[
+  {
+    "postedcandaitedIds": [],
+    "_id": "6127487386f681465cdaf9f3",
+    "title": "MERN stack bootcamp",
+    "photo": "no",
+    "category": "web developemnt",
+    "price": 35000,
+    "smallDescription": "MERN stands for MongoDB, Express, React, Node, after the four key technologies that make up the stack.",
+    "fullDescription": "MERN stands for MongoDB, Express, React, Node, after the four key technologies that make up the stack. MongoDB - document database. Express(.js) - Node.js web framework. React(.js) - a client-side JavaScript framework.",
+    "company": "SR Tech",
+    "phoneNumber": "9989632587",
+    "postedBy": "6122434efdc7c27220f485d8",
+    "companyDescription": "EdvenSoft Solutions is an industry leader with a solid track record of software solution delivery success as evidenced by our many success stories",
+    "createdAt": "2021-08-26T07:53:23.437Z",
+    "updatedAt": "2021-08-28T17:22:27.540Z"
+  },
+  {
+    "postedcandaitedIds": [],
+    "_id": "7127487386f681465cdaf9f3",
+    "title": "ui/ux bootcamp",
+    "photo": "no",
+    "category": "ui/ux ",
+    "price": 75000,
+    "smallDescription": "UX (user experience) and UI (user interface) are two interdependent terms. ",
+    "fullDescription": "User interface design or user interface engineering is the design of user interfaces for machines and software, such as computers, home appliances, mobile devices, and other electronic devices, with the focus on maximizing usability and the user experience",
+    "company": "99x Tech",
+    "phoneNumber": "8989632587",
+    "postedBy": "7122434efdc7c27220f485d8",
+    "companyDescription": "99x Tech Solutions is an industry leader with a solid track record of software solution delivery success as evidenced by our many success stories",
+    "createdAt": "2021-08-26T07:53:23.437Z",
+    "updatedAt": "2021-08-28T17:22:27.540Z"
+  },
+  {
+    "title": "MERN stack bootcamp",
+    "category": "web developemnt",
+    "price": "2000.00",
+    "smallDescription": "MERN stands for MongoDB, Express, React, Node, after the four key technologies that make up the stack.",
+    "fullDescription": "MERN stands for MongoDB, Express, React, Node, after the four key technologies that make up the stack. MongoDB - document database. Express(.js) - Node.js web framework. React(.js) - a client-side JavaScript framework.",
+    "company": "SR Tech",
+    "phoneNumber": "9989632587",
+    "companyDescription": "EdvenSoft Solutions is an industry leader with a solid track record of software solution delivery success as evidenced by our many success stories",
+    "postedcandaitedIds": [],
+    "postedBy": "6122434efdc7c27220f485d8"
+  }
+]

@@ -1,0 +1,75 @@
+.btnpayhere {
+  padding: 2px;
+  border-radius: 25px;
+  font-size: 20px;
+  background-color: rgb(0, 21, 41);
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.btnpayhere > a {
+  color: white;
+}
+
+.pay {
+  color: black;
+}
+
+.container {
+  margin: 0 120px 120px 120px;
+  font-family:monospace;
+}
+
+.title {
+  font-size: 19px;
+  font-weight: bold;
+  color: rgb(19, 72, 76);
+}
+
+.imgimg {
+  width: 100%;
+  height: 330px;
+  border-radius: 20px 20px 0 0;
+}
+
+.arrange {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.head {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(24,144,255);
+  font-family:monospace;
+}
+
+
+.bbttn{
+  float: right;
+}
+
+.attend{
+  width: 200px;
+  background-color: rgb(255, 18, 18);
+  border-radius: 20px;
+  color: white;
+}
+
+.attend  p{
+  margin: 5px;
+  margin-left: 5px;
+}
+
+.attendstu{
+  margin-left: 5px;
+}

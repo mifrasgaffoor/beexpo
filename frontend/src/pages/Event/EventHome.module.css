@@ -1,0 +1,112 @@
+.main_container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  height: 330px;
+  width: 90%;
+  margin-top: 20px;
+
+
+}
+
+.card {
+  margin-top: 10px !important;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  border: 3px solid #ffffff;
+  display: flex;
+  justify-content: center;
+  height: 330px;
+  width: 80%;
+  border: 10px;
+  box-shadow: 6px 6px rgb(99, 99, 98);
+
+}
+
+
+
+.card_left {
+  height: 100%;
+  width: 40%;
+
+  border: 10px;
+}
+
+.card_left>img {
+  height: 100%;
+  width: 100%;
+}
+
+.card_right {
+  height: 100%;
+  width: 60%;
+  background-color: #e4e4f6;
+  padding-left: 10px;
+  border: 10px;
+}
+
+.content_company>img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.content_company {
+  display: flex;
+
+}
+
+.company_name {
+  margin: 10px;
+}
+
+.content_button {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.content_button>button {
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 6px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.btn {
+  background-color: #f33a19;
+  border: none;
+  color: white;
+  padding: 6px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+
+
+.date {
+  margin-right: 20px;
+  font-size: 12px;
+  color: #170e3a;
+}
+
+.datavalue {
+  margin-left: 10px;
+}
+
+.heading {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: #1e5709;
+}

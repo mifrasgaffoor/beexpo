@@ -1,0 +1,10 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-right: 10px;
+}
+
+.sidebar > a {
+    color: rgb(166, 79, 124);
+}

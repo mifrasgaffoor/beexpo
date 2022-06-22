@@ -1,0 +1,56 @@
+.conatiner {}
+
+.card {
+
+    height: 290px;
+    width: 262px;
+    background-color: rgb(204, 207, 210);
+    margin: 30px;
+    display: flex;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 6px 6px rgb(58, 63, 65);
+    transition: transform .2s;
+
+}
+
+.heading {
+    color: red;
+    font-weight: bold;
+}
+
+.descp {
+    padding: 10px;
+    color: rgb(53, 53, 125);
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.heading {
+    margin-left: 25px;
+
+}
+
+.posted {
+    font-size: 14px;
+}
+
+.btn {
+    border: 2px solid rgb(129, 123, 123);
+    background-color: white;
+    color: black;
+    padding: 2px 13px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.btn:hover {
+    background: #2196F3;
+    color: white;
+
+}

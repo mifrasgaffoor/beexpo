@@ -1,0 +1,90 @@
+.input_input {
+    font-family: "Montserrat", sans-serif;
+    outline: none;
+    background: none;
+    width: 100%;
+    height: 40px;
+    color: #4b4a4a;
+    padding: 0 4px;
+    letter-spacing: 0.5px;
+    margin-top: 10px;
+    border: 2px solid rgb(10, 73, 192);
+}
+
+.button_button {
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    background-color: #3ecde0;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+    margin: 4px;
+}
+
+
+.button_button2 {
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    background-color: #000000;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+    margin: 4px;
+}
+
+.select_select {
+    font-family: "Montserrat", sans-serif;
+    border: 2px solid white;
+    background: none;
+    width: 100%;
+    height: 40px;
+    color: #4b4a4a;
+    padding: 0 4px;
+    letter-spacing: 0.5px;
+    margin-top: 10px;
+    border: 2px solid rgb(10, 73, 192);
+}
+
+.text_area {
+    font-family: "Montserrat", sans-serif;
+    outline: none;
+    background: none;
+    width: 100%;
+    height: 40px;
+    color: #4b4a4a;
+    padding: 0 4px;
+    letter-spacing: 0.5px;
+    margin-top: 10px;
+    border: 2px solid white;
+    border: 2px solid rgb(10, 73, 192);
+}
+
+.select_label {
+    color: #3ecde0;
+    font-size: 15px !important;
+}
+
+.form_form {
+    height: 80vh;
+    width: 90%;
+    margin: auto !important;
+    padding: 10px;
+    background-color: rgb(238, 231, 231);
+}
+
+.heading {
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-size: 35px;
+}

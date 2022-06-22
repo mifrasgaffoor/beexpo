@@ -1,0 +1,63 @@
+.profile_container {
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    border: 1px solid black;
+}
+
+.profile_left {
+    height: 50vh;
+    width: 30%;
+
+
+}
+
+
+.profile_right {
+    padding: 10px;
+}
+
+.image {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+
+.name {
+    color: rgb(0, 0, 0);
+    margin-left: 25%;
+    margin-top: 10px;
+}
+
+
+
+.input_input {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical
+        /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+.submit:hover {
+    background-color: #45a049;
+}
+
+.concon {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
