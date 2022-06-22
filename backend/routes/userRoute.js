@@ -6,6 +6,7 @@ const {verifyUser,auth,verifyAdmin,verifyMentor,verifyCompany,verifyStudent} =  
 
 router.post("/userregister" , userCntrl.userregister);
 router.post("/userlogin" , userCntrl.userlogin)
+router.get("/getallusers", userCntrl.getallusers);
 router.get("/checkauthentication" , auth,  userCntrl.checkauthentication)
 
 

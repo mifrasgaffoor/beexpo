@@ -130,6 +130,16 @@ const userCntrl = {
       return res.status(500).json(error);
     }
   },
+
+  getallusers: async (req, res) => {
+    try {
+      const users = await User.find();
+      res.send(users);
+      console.log(users);
+    } catch (error) {
+      res.status(400).json({ error: error });
+    }
+  },
 };
 
 function validateEmail(email) {
