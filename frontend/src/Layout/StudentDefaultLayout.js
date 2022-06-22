@@ -33,6 +33,11 @@ class StudentDefaultLayout extends React.Component {
   };
 
   render() {
+    // const logout = () => {
+    //   const useruser = localStorage.removeItem("user");
+    // };
+
+    // logout();
     return (
       <Layout>
         <Sider trigger={null} collapsible collapsed={this.state.collapsed}>

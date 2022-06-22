@@ -23,6 +23,7 @@ import PostedBlog from "./pages/Blog/PostedBlog";
 import AdminDefaultLayout from "./Layout/AdminDefaultLayout";
 import Dashboard from "./components/Admin/Dashboard";
 import ManageUser from "./components/Admin/ManageUser";
+import UserManage from "./pages/Admin/UserManage";
 import AllProject from "./pages/Project/AllProject";
 import ProjectInfo from "./pages/Project/ProjectInfo";
 import FindMentor from "./pages/Mentor/FindMentor";
@@ -79,7 +80,7 @@ function App() {
           {/* admin only aceess  */}
           <Route path="/admin" exact component={AdminDefaultLayout} />
           <Route path="/dashboard" exact component={Dashboard} />
-          <Route path="/manageuser" exact component={ManageUser} />
+          <Route path="/manageuser" exact component={UserManage} />
           <Route path="/user" exact component={user} />
         </Switch>
       </Router>
