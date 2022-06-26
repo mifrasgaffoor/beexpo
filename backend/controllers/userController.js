@@ -10,8 +10,15 @@ const jwt = require("jsonwebtoken");
 const userCntrl = {
   userregister: async (req, res) => {
     try {
-      const { role, username, email, mobile, password, confirmpassword } =
-        req.body;
+      const {
+        role,
+        username,
+        email,
+        mobile,
+        password,
+        confirmpassword,
+        color,
+      } = req.body;
 
       if (
         !role ||
@@ -19,7 +26,8 @@ const userCntrl = {
         !email ||
         !mobile ||
         !password ||
-        !confirmpassword
+        !confirmpassword ||
+        !color
       ) {
         return res
           .status(400)
@@ -55,16 +63,52 @@ const userCntrl = {
         username,
         email,
         mobile,
+        color,
         password: passwordHash,
         confirmpassword: passwordHash,
       });
 
       console.log(newUser);
       const saveUser = await newUser.save();
-
       console.log(saveUser);
 
       res.status(200).json({ msg: "Register succusfully" });
+    } catch (error) {
+      console.log(error);
+      return res.status(500).json({ error });
+    }
+  },
+  forgotpassword: async (req, res) => {
+    try {
+      const { email, repassword, color } = req.body;
+
+      if (!email || !repassword || !color) {
+        return res
+          .status(400)
+          .json({ error: "**please fill all the fields**" });
+      }
+
+      if (!validateEmail(email)) {
+        return res.status(400).json({ error: "**invalid email check again**" });
+      }
+      const user = await User.findOne({ email, color });
+      if (!user) {
+        return res.status(400).json({
+          error: "**Somthing went wrong check Privde Correct Answer**",
+        });
+      }
+      if (repassword.length < 8) {
+        return res
+          .status(400)
+          .json({ error: "**password  must be least 08 character**" });
+      }
+
+      const passwordHash = await bcrypt.hash(repassword, 12);
+      const reupdate = await User.findByIdAndUpdate(user._id, {
+        password: passwordHash,
+      });
+      console.log(passwordHash);
+      res.status(200).json({ msg: "rest password sucsully" });
     } catch (error) {
       console.log(error);
       return res.status(500).json({ error });
