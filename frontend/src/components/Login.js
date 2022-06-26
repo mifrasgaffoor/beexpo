@@ -79,6 +79,9 @@ const Login = ({ history }) => {
               Don't have an account?
               <Link to="/userregister">Register</Link>
             </p>
+            <p class="login">
+              <Link to="forgotpassword">forgot password</Link>
+            </p>
             <div class="actions">
               <button type="submit" onClick={() => fetchLogin()}>
                 Sign In

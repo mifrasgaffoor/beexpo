@@ -11,7 +11,7 @@ const UserRegister = ({ history }) => {
   const [mobile, setMobile] = useState("");
   const [password, setPassword] = useState("");
   const [confirmpassword, setConfrimpassword] = useState("");
-
+  const [color, setColor] = useState("");
   console.log({
     role,
     username,
@@ -19,6 +19,7 @@ const UserRegister = ({ history }) => {
     mobile,
     password,
     confirmpassword,
+    color,
   });
   const fetchRegister = () => {
     fetch("/api/user/userregister", {
@@ -31,6 +32,7 @@ const UserRegister = ({ history }) => {
         mobile,
         password,
         confirmpassword,
+        color,
       }),
     })
       .then((res) => res.json())
@@ -126,11 +128,21 @@ const UserRegister = ({ history }) => {
               />
               <span class="item-indicator"></span>
             </div>
+            <div class="form-item fullname">
+              <input
+                type="text"
+                placeholder=" enter your favariute color for security purpuse "
+                value={color}
+                onChange={(e) => setColor(e.target.value)}
+              />
+              <span class="item-indicator"></span>
+            </div>
 
             <p class="login">
               Already have an account?
               <Link to="login">Login</Link>
             </p>
+
             <div class="actions">
               <button type="submit" onClick={() => fetchRegister()}>
                 Sign Up

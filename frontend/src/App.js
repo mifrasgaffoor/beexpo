@@ -33,6 +33,7 @@ import CompanyDefaultLayout from "./Layout/CompanyDefaultLayout";
 import MentorDefaultLayout from "./Layout/MentorDefaultLayout";
 
 import BlogHomePage from "./pages/Blog/BlogHomePage";
+import ForgotPassword from "./components/ForgotPassword";
 function App() {
   const history = createBrowserHistory();
   const data = JSON.parse(localStorage.getItem("user"));
@@ -82,6 +83,7 @@ function App() {
           <Route path="/dashboard" exact component={Dashboard} />
           <Route path="/manageuser" exact component={UserManage} />
           <Route path="/user" exact component={user} />
+          <Route path="/forgotpassword" exact component={ForgotPassword} />
         </Switch>
       </Router>
     </div>

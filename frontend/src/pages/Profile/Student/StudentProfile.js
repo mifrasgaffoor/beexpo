@@ -11,13 +11,6 @@ const StudentProfile = ({ history }) => {
   const user = JSON.parse(localStorage.getItem("user"));
 
   useEffect(() => {}, []);
-
-  //   <TabPane tab="Profile" key="1">
-  //   <h2>UseName : {user.username} </h2>
-  //   <h2>Email : {user.email} </h2>
-  //   <h2>Loogin as : {user.role} </h2>
-
-  // </TabPane>
   return (
     <div>
       <StudentDefaultLayout>
